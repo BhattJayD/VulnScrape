@@ -27,10 +27,10 @@ This project is a Python and React-based application designed to provide users w
 - [x] **Backend setup**  
        Install necessary libraries and create a basic Python server.
 
-- [ ] **User input handling**  
+- [x] **User input handling**  
        Implement backend logic to accept and process user input.
 
-- [ ] **Data scraping**  
+- [x] **Data scraping**  
        Develop a Python script to scrape CVE Details based on the user input.
 
 - [ ] **API integration**  
