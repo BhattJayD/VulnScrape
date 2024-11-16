@@ -33,16 +33,16 @@ This project is a Python and React-based application designed to provide users w
 - [x] **Data scraping**  
        Develop a Python script to scrape CVE Details based on the user input.
 
-- [ ] **API integration**  
+- [x] **API integration**  
        Expose scraped data through a REST API for the frontend to consume.
 
-- [ ] **Frontend setup**  
+- [x] **Frontend setup**  
        Initialize a React application and design the UI for user input and results.
 
-- [ ] **Render CVE results**  
+- [x] **Render CVE results**  
        Display the latest 10 CVEs fetched from the backend on the React frontend.
 
-- [ ] **Filtering feature**  
+- [x] **Filtering feature**  
        Add a filtering mechanism on the frontend to narrow down results based on CVE scores.
 
 ## Technology Stack
@@ -111,6 +111,26 @@ This project is a Python and React-based application designed to provide users w
 - Add advanced filtering options.
 - Implement pagination for more CVE results.
 - Provide direct links to detailed CVE information.
+
+## UI Screenshots
+
+### 1. Initial Screen
+
+This is the initial screen of the application with an empty search box and no results displayed.
+
+![Initial Screen](outputs/initial_screen.png)
+
+### 2. Searched Results
+
+Once a query is entered and results are fetched from the backend, the table populates with the CVE details.
+
+![Searched Results](outputs/searched_results.png)
+
+### 3. Filter by CVE Score
+
+The table can be filtered based on the CVE score, allowing users to view results with a specific score range.
+
+![Filter by CVE Score](outputs/filter_by_cve_score.png)
 
 ## Contributing
 
