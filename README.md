@@ -21,7 +21,7 @@ This project is a Python and React-based application designed to provide users w
 
 ## Checkpoints
 
-- [ ] **Define project structure**  
+- [x] **Define project structure**  
        Set up the project directory for the backend and frontend.
 
 - [ ] **Backend setup**  
