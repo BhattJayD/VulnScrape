@@ -37,16 +37,15 @@ def scrape_cves(query):
         cve_id = row.find('a').text.strip()  # Extract CVE ID
         description = row.find('div', class_='cvesummarylong').text.strip()  # Extract description
         score = row.find('div', class_='cvssbox').text.strip()  # Extract CVSS score (if available)
-        
-        
-        
+        publishDate = row.find('div', {'data-tsvfield': 'publishDate'}).text.strip()  # Extract CVSS score (if available)
         # Clean up the description text
         cleaned_description = clean_text(description)
         
         cve_list.append({
             "cve_id": cve_id,
             "description": cleaned_description,
-            "cvss_score": score
+            "cvss_score": score,
+            "publish_date":publishDate
         })
 
     return {
